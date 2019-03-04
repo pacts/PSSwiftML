@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93132EC6221E972C0059458C /* PSScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E7F221E972B0059458C /* PSScannerController.swift */; };
+		93132EC7221E972C0059458C /* PSVideoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E82221E972B0059458C /* PSVideoLibrary.swift */; };
+		93132EC8221E972C0059458C /* PSVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E83221E972B0059458C /* PSVideoCell.swift */; };
+		93132EC9221E972C0059458C /* PSVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E84221E972B0059458C /* PSVideo.swift */; };
+		93132ECA221E972C0059458C /* PSVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E85221E972B0059458C /* PSVideoController.swift */; };
+		93132ECB221E972C0059458C /* PSVideoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E86221E972B0059458C /* PSVideoBox.swift */; };
+		93132ECC221E972C0059458C /* PSDropdownController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E89221E972B0059458C /* PSDropdownController.swift */; };
+		93132ECD221E972C0059458C /* PSPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E8B221E972B0059458C /* PSPageIndicator.swift */; };
+		93132ECE221E972C0059458C /* PSPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E8C221E972B0059458C /* PSPageController.swift */; };
+		93132ECF221E972C0059458C /* UIView+Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E8E221E972B0059458C /* UIView+Effect.swift */; };
+		93132ED0221E972C0059458C /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E8F221E972B0059458C /* UIColor+Hex.swift */; };
+		93132ED1221E972C0059458C /* String+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E90221E972B0059458C /* String+Localize.swift */; };
+		93132ED2221E972C0059458C /* UIImage+PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E91221E972B0059458C /* UIImage+PHAsset.swift */; };
+		93132ED3221E972C0059458C /* UIScrollView+ContentOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E92221E972B0059458C /* UIScrollView+ContentOffset.swift */; };
+		93132ED4221E972C0059458C /* UIViewController+Children.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E93221E972B0059458C /* UIViewController+Children.swift */; };
+		93132ED5221E972C0059458C /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E94221E972B0059458C /* UIView+Constraint.swift */; };
+		93132ED6221E972C0059458C /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E95221E972B0059458C /* UIView+Layout.swift */; };
+		93132ED7221E972C0059458C /* Array+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E96221E972B0059458C /* Array+Move.swift */; };
+		93132ED8221E972C0059458C /* AVAsset+Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E97221E972B0059458C /* AVAsset+Information.swift */; };
+		93132ED9221E972C0059458C /* PSGalleryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E98221E972B0059458C /* PSGalleryConfig.swift */; };
+		93132EDA221E972C0059458C /* PSVideoEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E9A221E972B0059458C /* PSVideoEditing.swift */; };
+		93132EDB221E972C0059458C /* PSVideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E9B221E972B0059458C /* PSVideoEditor.swift */; };
+		93132EDC221E972C0059458C /* PSVideoEditInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E9C221E972B0059458C /* PSVideoEditInfo.swift */; };
+		93132EDD221E972C0059458C /* PSGalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132E9E221E972B0059458C /* PSGalleryController.swift */; };
+		93132EDE221E972C0059458C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EA0221E972B0059458C /* Toast.swift */; };
+		93132EDF221E972C0059458C /* PSGalleryBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EA1221E972B0059458C /* PSGalleryBundle.swift */; };
+		93132EE0221E972C0059458C /* PSOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EA2221E972B0059458C /* PSOnce.swift */; };
+		93132EE1221E972C0059458C /* PSFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EA4221E972B0059458C /* PSFrameView.swift */; };
+		93132EE2221E972C0059458C /* PSEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EA5221E972B0059458C /* PSEmptyView.swift */; };
+		93132EE3221E972C0059458C /* PSStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EA6221E972B0059458C /* PSStackView.swift */; };
+		93132EE4221E972C0059458C /* PSGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EA7221E972B0059458C /* PSGridView.swift */; };
+		93132EE5221E972C0059458C /* PSAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EA8221E972B0059458C /* PSAlbumCell.swift */; };
+		93132EE6221E972C0059458C /* PSArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EA9221E972B0059458C /* PSArrowButton.swift */; };
+		93132EE7221E972C0059458C /* PSUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EAA221E972B0059458C /* PSUtils.swift */; };
+		93132EE8221E972C0059458C /* PSGalleryPermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EAC221E972B0059458C /* PSGalleryPermissionController.swift */; };
+		93132EE9221E972C0059458C /* PSGalleryPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EAD221E972B0059458C /* PSGalleryPermissionView.swift */; };
+		93132EEA221E972C0059458C /* PSGalleryPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EAE221E972B0059458C /* PSGalleryPermission.swift */; };
+		93132EEB221E972C0059458C /* PSLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EAF221E972B0059458C /* PSLocationManager.swift */; };
+		93132EEC221E972C0059458C /* PSEventHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EB0221E972B0059458C /* PSEventHub.swift */; };
+		93132EED221E972C0059458C /* PSCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EB2221E972B0059458C /* PSCameraManager.swift */; };
+		93132EEE221E972C0059458C /* PSFlashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EB3221E972B0059458C /* PSFlashButton.swift */; };
+		93132EEF221E972C0059458C /* PSCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EB4221E972B0059458C /* PSCameraController.swift */; };
+		93132EF0221E972C0059458C /* PSCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EB5221E972B0059458C /* PSCameraView.swift */; };
+		93132EF1221E972C0059458C /* PSShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EB6221E972B0059458C /* PSShutterButton.swift */; };
+		93132EF2221E972C0059458C /* PSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EB8221E972B0059458C /* PSImage.swift */; };
+		93132EF3221E972C0059458C /* PSAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EB9221E972B0059458C /* PSAlbum.swift */; };
+		93132EF4221E972C0059458C /* PSCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EBA221E972B0059458C /* PSCart.swift */; };
+		93132EF5221E972C0059458C /* PSPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EBB221E972C0059458C /* PSPhotoController.swift */; };
+		93132EF6221E972C0059458C /* PSImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EBC221E972C0059458C /* PSImageCell.swift */; };
+		93132EF7221E972C0059458C /* PSPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EBD221E972C0059458C /* PSPhotoLibrary.swift */; };
+		93132EF8221E972C0059458C /* Gallery.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93132EBE221E972C0059458C /* Gallery.bundle */; };
+		93132EF9221E972C0059458C /* app_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93132EC1221E972C0059458C /* app_check@2x.png */; };
+		93132EFA221E972C0059458C /* app_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93132EC2221E972C0059458C /* app_cancel@2x.png */; };
+		93132EFB221E972C0059458C /* app_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93132EC3221E972C0059458C /* app_cancel@3x.png */; };
+		93132EFC221E972C0059458C /* app_check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93132EC4221E972C0059458C /* app_check@3x.png */; };
+		93132EFD221E972C0059458C /* PSClipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93132EC5221E972C0059458C /* PSClipController.swift */; };
+		93132EFF221E979B0059458C /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 93132EFE221E979B0059458C /* Resnet50.mlmodel */; };
+		93BC72AF221DA23F00516D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC72AE221DA23F00516D4D /* AppDelegate.swift */; };
+		93BC72B1221DA23F00516D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC72B0221DA23F00516D4D /* ViewController.swift */; };
+		93BC72B4221DA23F00516D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BC72B2221DA23F00516D4D /* Main.storyboard */; };
+		93BC72B6221DA24000516D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BC72B5221DA24000516D4D /* Assets.xcassets */; };
+		93BC72B9221DA24000516D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BC72B7221DA24000516D4D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93132E7F221E972B0059458C /* PSScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSScannerController.swift; sourceTree = "<group>"; };
+		93132E82221E972B0059458C /* PSVideoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSVideoLibrary.swift; sourceTree = "<group>"; };
+		93132E83221E972B0059458C /* PSVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSVideoCell.swift; sourceTree = "<group>"; };
+		93132E84221E972B0059458C /* PSVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSVideo.swift; sourceTree = "<group>"; };
+		93132E85221E972B0059458C /* PSVideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSVideoController.swift; sourceTree = "<group>"; };
+		93132E86221E972B0059458C /* PSVideoBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSVideoBox.swift; sourceTree = "<group>"; };
+		93132E89221E972B0059458C /* PSDropdownController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSDropdownController.swift; sourceTree = "<group>"; };
+		93132E8B221E972B0059458C /* PSPageIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSPageIndicator.swift; sourceTree = "<group>"; };
+		93132E8C221E972B0059458C /* PSPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSPageController.swift; sourceTree = "<group>"; };
+		93132E8E221E972B0059458C /* UIView+Effect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Effect.swift"; sourceTree = "<group>"; };
+		93132E8F221E972B0059458C /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		93132E90221E972B0059458C /* String+Localize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localize.swift"; sourceTree = "<group>"; };
+		93132E91221E972B0059458C /* UIImage+PHAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+PHAsset.swift"; sourceTree = "<group>"; };
+		93132E92221E972B0059458C /* UIScrollView+ContentOffset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ContentOffset.swift"; sourceTree = "<group>"; };
+		93132E93221E972B0059458C /* UIViewController+Children.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Children.swift"; sourceTree = "<group>"; };
+		93132E94221E972B0059458C /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
+		93132E95221E972B0059458C /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		93132E96221E972B0059458C /* Array+Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Move.swift"; sourceTree = "<group>"; };
+		93132E97221E972B0059458C /* AVAsset+Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAsset+Information.swift"; sourceTree = "<group>"; };
+		93132E98221E972B0059458C /* PSGalleryConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSGalleryConfig.swift; sourceTree = "<group>"; };
+		93132E9A221E972B0059458C /* PSVideoEditing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSVideoEditing.swift; sourceTree = "<group>"; };
+		93132E9B221E972B0059458C /* PSVideoEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSVideoEditor.swift; sourceTree = "<group>"; };
+		93132E9C221E972B0059458C /* PSVideoEditInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSVideoEditInfo.swift; sourceTree = "<group>"; };
+		93132E9E221E972B0059458C /* PSGalleryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSGalleryController.swift; sourceTree = "<group>"; };
+		93132EA0221E972B0059458C /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		93132EA1221E972B0059458C /* PSGalleryBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSGalleryBundle.swift; sourceTree = "<group>"; };
+		93132EA2221E972B0059458C /* PSOnce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSOnce.swift; sourceTree = "<group>"; };
+		93132EA4221E972B0059458C /* PSFrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSFrameView.swift; sourceTree = "<group>"; };
+		93132EA5221E972B0059458C /* PSEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSEmptyView.swift; sourceTree = "<group>"; };
+		93132EA6221E972B0059458C /* PSStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSStackView.swift; sourceTree = "<group>"; };
+		93132EA7221E972B0059458C /* PSGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSGridView.swift; sourceTree = "<group>"; };
+		93132EA8221E972B0059458C /* PSAlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSAlbumCell.swift; sourceTree = "<group>"; };
+		93132EA9221E972B0059458C /* PSArrowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSArrowButton.swift; sourceTree = "<group>"; };
+		93132EAA221E972B0059458C /* PSUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSUtils.swift; sourceTree = "<group>"; };
+		93132EAC221E972B0059458C /* PSGalleryPermissionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSGalleryPermissionController.swift; sourceTree = "<group>"; };
+		93132EAD221E972B0059458C /* PSGalleryPermissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSGalleryPermissionView.swift; sourceTree = "<group>"; };
+		93132EAE221E972B0059458C /* PSGalleryPermission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSGalleryPermission.swift; sourceTree = "<group>"; };
+		93132EAF221E972B0059458C /* PSLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSLocationManager.swift; sourceTree = "<group>"; };
+		93132EB0221E972B0059458C /* PSEventHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSEventHub.swift; sourceTree = "<group>"; };
+		93132EB2221E972B0059458C /* PSCameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSCameraManager.swift; sourceTree = "<group>"; };
+		93132EB3221E972B0059458C /* PSFlashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSFlashButton.swift; sourceTree = "<group>"; };
+		93132EB4221E972B0059458C /* PSCameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSCameraController.swift; sourceTree = "<group>"; };
+		93132EB5221E972B0059458C /* PSCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSCameraView.swift; sourceTree = "<group>"; };
+		93132EB6221E972B0059458C /* PSShutterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSShutterButton.swift; sourceTree = "<group>"; };
+		93132EB8221E972B0059458C /* PSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSImage.swift; sourceTree = "<group>"; };
+		93132EB9221E972B0059458C /* PSAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSAlbum.swift; sourceTree = "<group>"; };
+		93132EBA221E972B0059458C /* PSCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSCart.swift; sourceTree = "<group>"; };
+		93132EBB221E972C0059458C /* PSPhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSPhotoController.swift; sourceTree = "<group>"; };
+		93132EBC221E972C0059458C /* PSImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSImageCell.swift; sourceTree = "<group>"; };
+		93132EBD221E972C0059458C /* PSPhotoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSPhotoLibrary.swift; sourceTree = "<group>"; };
+		93132EBE221E972C0059458C /* Gallery.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Gallery.bundle; sourceTree = "<group>"; };
+		93132EC1221E972C0059458C /* app_check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_check@2x.png"; sourceTree = "<group>"; };
+		93132EC2221E972C0059458C /* app_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_cancel@2x.png"; sourceTree = "<group>"; };
+		93132EC3221E972C0059458C /* app_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_cancel@3x.png"; sourceTree = "<group>"; };
+		93132EC4221E972C0059458C /* app_check@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_check@3x.png"; sourceTree = "<group>"; };
+		93132EC5221E972C0059458C /* PSClipController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSClipController.swift; sourceTree = "<group>"; };
+		93132EFE221E979B0059458C /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		93BC72AB221DA23F00516D4D /* PSSwiftML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSSwiftML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BC72AE221DA23F00516D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93BC72B0221DA23F00516D4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93BC72B3221DA23F00516D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93BC72B5221DA24000516D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93BC72B8221DA24000516D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93BC72BA221DA24000516D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BC72A8221DA23F00516D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93132E80221E972B0059458C /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				93132E81221E972B0059458C /* Video */,
+				93132E87221E972B0059458C /* Util */,
+				93132EB1221E972B0059458C /* Camera */,
+				93132EB7221E972B0059458C /* Image */,
+				93132EBE221E972C0059458C /* Gallery.bundle */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		93132E81221E972B0059458C /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				93132E82221E972B0059458C /* PSVideoLibrary.swift */,
+				93132E83221E972B0059458C /* PSVideoCell.swift */,
+				93132E84221E972B0059458C /* PSVideo.swift */,
+				93132E85221E972B0059458C /* PSVideoController.swift */,
+				93132E86221E972B0059458C /* PSVideoBox.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		93132E87221E972B0059458C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				93132E88221E972B0059458C /* Dropdown */,
+				93132E8A221E972B0059458C /* Page */,
+				93132E8D221E972B0059458C /* Extension */,
+				93132E98221E972B0059458C /* PSGalleryConfig.swift */,
+				93132E99221E972B0059458C /* VideoEditor */,
+				93132E9D221E972B0059458C /* Gallery */,
+				93132E9F221E972B0059458C /* Toast */,
+				93132EA1221E972B0059458C /* PSGalleryBundle.swift */,
+				93132EA2221E972B0059458C /* PSOnce.swift */,
+				93132EA3221E972B0059458C /* View */,
+				93132EAA221E972B0059458C /* PSUtils.swift */,
+				93132EAB221E972B0059458C /* Permission */,
+				93132EAF221E972B0059458C /* PSLocationManager.swift */,
+				93132EB0221E972B0059458C /* PSEventHub.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		93132E88221E972B0059458C /* Dropdown */ = {
+			isa = PBXGroup;
+			children = (
+				93132E89221E972B0059458C /* PSDropdownController.swift */,
+			);
+			path = Dropdown;
+			sourceTree = "<group>";
+		};
+		93132E8A221E972B0059458C /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				93132E8B221E972B0059458C /* PSPageIndicator.swift */,
+				93132E8C221E972B0059458C /* PSPageController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		93132E8D221E972B0059458C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				93132E8E221E972B0059458C /* UIView+Effect.swift */,
+				93132E8F221E972B0059458C /* UIColor+Hex.swift */,
+				93132E90221E972B0059458C /* String+Localize.swift */,
+				93132E91221E972B0059458C /* UIImage+PHAsset.swift */,
+				93132E92221E972B0059458C /* UIScrollView+ContentOffset.swift */,
+				93132E93221E972B0059458C /* UIViewController+Children.swift */,
+				93132E94221E972B0059458C /* UIView+Constraint.swift */,
+				93132E95221E972B0059458C /* UIView+Layout.swift */,
+				93132E96221E972B0059458C /* Array+Move.swift */,
+				93132E97221E972B0059458C /* AVAsset+Information.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		93132E99221E972B0059458C /* VideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				93132E9A221E972B0059458C /* PSVideoEditing.swift */,
+				93132E9B221E972B0059458C /* PSVideoEditor.swift */,
+				93132E9C221E972B0059458C /* PSVideoEditInfo.swift */,
+			);
+			path = VideoEditor;
+			sourceTree = "<group>";
+		};
+		93132E9D221E972B0059458C /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				93132E9E221E972B0059458C /* PSGalleryController.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		93132E9F221E972B0059458C /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				93132EA0221E972B0059458C /* Toast.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		93132EA3221E972B0059458C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93132EA4221E972B0059458C /* PSFrameView.swift */,
+				93132EA5221E972B0059458C /* PSEmptyView.swift */,
+				93132EA6221E972B0059458C /* PSStackView.swift */,
+				93132EA7221E972B0059458C /* PSGridView.swift */,
+				93132EA8221E972B0059458C /* PSAlbumCell.swift */,
+				93132EA9221E972B0059458C /* PSArrowButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93132EAB221E972B0059458C /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				93132EAC221E972B0059458C /* PSGalleryPermissionController.swift */,
+				93132EAD221E972B0059458C /* PSGalleryPermissionView.swift */,
+				93132EAE221E972B0059458C /* PSGalleryPermission.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		93132EB1221E972B0059458C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				93132EB2221E972B0059458C /* PSCameraManager.swift */,
+				93132EB3221E972B0059458C /* PSFlashButton.swift */,
+				93132EB4221E972B0059458C /* PSCameraController.swift */,
+				93132EB5221E972B0059458C /* PSCameraView.swift */,
+				93132EB6221E972B0059458C /* PSShutterButton.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		93132EB7221E972B0059458C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				93132EB8221E972B0059458C /* PSImage.swift */,
+				93132EB9221E972B0059458C /* PSAlbum.swift */,
+				93132EBA221E972B0059458C /* PSCart.swift */,
+				93132EBB221E972C0059458C /* PSPhotoController.swift */,
+				93132EBC221E972C0059458C /* PSImageCell.swift */,
+				93132EBD221E972C0059458C /* PSPhotoLibrary.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		93132EBF221E972C0059458C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				93132EC0221E972C0059458C /* icon */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		93132EC0221E972C0059458C /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				93132EC1221E972C0059458C /* app_check@2x.png */,
+				93132EC4221E972C0059458C /* app_check@3x.png */,
+				93132EC2221E972C0059458C /* app_cancel@2x.png */,
+				93132EC3221E972C0059458C /* app_cancel@3x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		93BC72A2221DA23F00516D4D = {
+			isa = PBXGroup;
+			children = (
+				93BC72AD221DA23F00516D4D /* PSSwiftML */,
+				93BC72AC221DA23F00516D4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93BC72AC221DA23F00516D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BC72AB221DA23F00516D4D /* PSSwiftML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93BC72AD221DA23F00516D4D /* PSSwiftML */ = {
+			isa = PBXGroup;
+			children = (
+				93132EFE221E979B0059458C /* Resnet50.mlmodel */,
+				93132E80221E972B0059458C /* Gallery */,
+				93132EC5221E972C0059458C /* PSClipController.swift */,
+				93132E7F221E972B0059458C /* PSScannerController.swift */,
+				93BC72AE221DA23F00516D4D /* AppDelegate.swift */,
+				93BC72B0221DA23F00516D4D /* ViewController.swift */,
+				93BC72B2221DA23F00516D4D /* Main.storyboard */,
+				93BC72B5221DA24000516D4D /* Assets.xcassets */,
+				93BC72B7221DA24000516D4D /* LaunchScreen.storyboard */,
+				93BC72BA221DA24000516D4D /* Info.plist */,
+				93132EBF221E972C0059458C /* Resource */,
+			);
+			path = PSSwiftML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BC72AA221DA23F00516D4D /* PSSwiftML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BC72BD221DA24000516D4D /* Build configuration list for PBXNativeTarget "PSSwiftML" */;
+			buildPhases = (
+				93BC72A7221DA23F00516D4D /* Sources */,
+				93BC72A8221DA23F00516D4D /* Frameworks */,
+				93BC72A9221DA23F00516D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSSwiftML;
+			productName = PSSwiftML;
+			productReference = 93BC72AB221DA23F00516D4D /* PSSwiftML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BC72A3221DA23F00516D4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Aaron;
+				TargetAttributes = {
+					93BC72AA221DA23F00516D4D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 93BC72A6221DA23F00516D4D /* Build configuration list for PBXProject "PSSwiftML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93BC72A2221DA23F00516D4D;
+			productRefGroup = 93BC72AC221DA23F00516D4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BC72AA221DA23F00516D4D /* PSSwiftML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BC72A9221DA23F00516D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93132EFA221E972C0059458C /* app_cancel@2x.png in Resources */,
+				93BC72B9221DA24000516D4D /* LaunchScreen.storyboard in Resources */,
+				93BC72B6221DA24000516D4D /* Assets.xcassets in Resources */,
+				93132EF8221E972C0059458C /* Gallery.bundle in Resources */,
+				93132EFC221E972C0059458C /* app_check@3x.png in Resources */,
+				93132EFB221E972C0059458C /* app_cancel@3x.png in Resources */,
+				93132EF9221E972C0059458C /* app_check@2x.png in Resources */,
+				93BC72B4221DA23F00516D4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BC72A7221DA23F00516D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93132EE3221E972C0059458C /* PSStackView.swift in Sources */,
+				93132EF0221E972C0059458C /* PSCameraView.swift in Sources */,
+				93132EEB221E972C0059458C /* PSLocationManager.swift in Sources */,
+				93132ED3221E972C0059458C /* UIScrollView+ContentOffset.swift in Sources */,
+				93132EDF221E972C0059458C /* PSGalleryBundle.swift in Sources */,
+				93132EC6221E972C0059458C /* PSScannerController.swift in Sources */,
+				93132EE7221E972C0059458C /* PSUtils.swift in Sources */,
+				93132EE5221E972C0059458C /* PSAlbumCell.swift in Sources */,
+				93132EF6221E972C0059458C /* PSImageCell.swift in Sources */,
+				93132EED221E972C0059458C /* PSCameraManager.swift in Sources */,
+				93132EFF221E979B0059458C /* Resnet50.mlmodel in Sources */,
+				93132EDC221E972C0059458C /* PSVideoEditInfo.swift in Sources */,
+				93BC72B1221DA23F00516D4D /* ViewController.swift in Sources */,
+				93132EE8221E972C0059458C /* PSGalleryPermissionController.swift in Sources */,
+				93132EC9221E972C0059458C /* PSVideo.swift in Sources */,
+				93132EE4221E972C0059458C /* PSGridView.swift in Sources */,
+				93132ED1221E972C0059458C /* String+Localize.swift in Sources */,
+				93132EE1221E972C0059458C /* PSFrameView.swift in Sources */,
+				93132ECF221E972C0059458C /* UIView+Effect.swift in Sources */,
+				93132ECD221E972C0059458C /* PSPageIndicator.swift in Sources */,
+				93132EE9221E972C0059458C /* PSGalleryPermissionView.swift in Sources */,
+				93132EC7221E972C0059458C /* PSVideoLibrary.swift in Sources */,
+				93132EF7221E972C0059458C /* PSPhotoLibrary.swift in Sources */,
+				93132EF2221E972C0059458C /* PSImage.swift in Sources */,
+				93132ED4221E972C0059458C /* UIViewController+Children.swift in Sources */,
+				93132EE6221E972C0059458C /* PSArrowButton.swift in Sources */,
+				93BC72AF221DA23F00516D4D /* AppDelegate.swift in Sources */,
+				93132ED2221E972C0059458C /* UIImage+PHAsset.swift in Sources */,
+				93132EEC221E972C0059458C /* PSEventHub.swift in Sources */,
+				93132EE0221E972C0059458C /* PSOnce.swift in Sources */,
+				93132ECE221E972C0059458C /* PSPageController.swift in Sources */,
+				93132EF4221E972C0059458C /* PSCart.swift in Sources */,
+				93132EF3221E972C0059458C /* PSAlbum.swift in Sources */,
+				93132ED7221E972C0059458C /* Array+Move.swift in Sources */,
+				93132ED9221E972C0059458C /* PSGalleryConfig.swift in Sources */,
+				93132ECA221E972C0059458C /* PSVideoController.swift in Sources */,
+				93132EDE221E972C0059458C /* Toast.swift in Sources */,
+				93132EEE221E972C0059458C /* PSFlashButton.swift in Sources */,
+				93132EF1221E972C0059458C /* PSShutterButton.swift in Sources */,
+				93132EEF221E972C0059458C /* PSCameraController.swift in Sources */,
+				93132EDB221E972C0059458C /* PSVideoEditor.swift in Sources */,
+				93132ED0221E972C0059458C /* UIColor+Hex.swift in Sources */,
+				93132ECB221E972C0059458C /* PSVideoBox.swift in Sources */,
+				93132EEA221E972C0059458C /* PSGalleryPermission.swift in Sources */,
+				93132ED5221E972C0059458C /* UIView+Constraint.swift in Sources */,
+				93132ECC221E972C0059458C /* PSDropdownController.swift in Sources */,
+				93132EF5221E972C0059458C /* PSPhotoController.swift in Sources */,
+				93132EE2221E972C0059458C /* PSEmptyView.swift in Sources */,
+				93132EFD221E972C0059458C /* PSClipController.swift in Sources */,
+				93132EDD221E972C0059458C /* PSGalleryController.swift in Sources */,
+				93132ED8221E972C0059458C /* AVAsset+Information.swift in Sources */,
+				93132ED6221E972C0059458C /* UIView+Layout.swift in Sources */,
+				93132EDA221E972C0059458C /* PSVideoEditing.swift in Sources */,
+				93132EC8221E972C0059458C /* PSVideoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93BC72B2221DA23F00516D4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BC72B3221DA23F00516D4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93BC72B7221DA24000516D4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BC72B8221DA24000516D4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93BC72BB221DA24000516D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93BC72BC221DA24000516D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93BC72BE221DA24000516D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUM8VFUW42;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PSSwiftML",
+				);
+				INFOPLIST_FILE = PSSwiftML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pacts.PSSwiftML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93BC72BF221DA24000516D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUM8VFUW42;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PSSwiftML",
+				);
+				INFOPLIST_FILE = PSSwiftML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pacts.PSSwiftML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BC72A6221DA23F00516D4D /* Build configuration list for PBXProject "PSSwiftML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BC72BB221DA24000516D4D /* Debug */,
+				93BC72BC221DA24000516D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BC72BD221DA24000516D4D /* Build configuration list for PBXNativeTarget "PSSwiftML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BC72BE221DA24000516D4D /* Debug */,
+				93BC72BF221DA24000516D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BC72A3221DA23F00516D4D /* Project object */;
+}
