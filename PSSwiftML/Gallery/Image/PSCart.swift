@@ -41,7 +41,7 @@ public class PSCart {
     }
     
     public func remove(_ image: PSImage) {
-        guard let index = images.index(of: image) else { return }
+        guard let index = images.firstIndex(of: image) else { return }
         
         images.remove(at: index)
         

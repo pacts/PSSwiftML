@@ -68,7 +68,7 @@ public class PSGalleryController: UIViewController, PSPermissionControllerDelega
         }
         
         let controller = PSPageController(controllers: controllers)
-        controller.selectedIndex = tabsToShow.index(of: PSGalleryConfig.initialTab ?? .camera) ?? 0
+        controller.selectedIndex = tabsToShow.firstIndex(of: PSGalleryConfig.initialTab ?? .camera) ?? 0
         
         return controller
     }

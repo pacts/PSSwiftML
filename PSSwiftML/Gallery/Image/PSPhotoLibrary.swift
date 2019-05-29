@@ -44,7 +44,7 @@ class PSPhotoLibrary {
             }
         }
         
-        if let index = albums.index(where: { $0.collection.assetCollectionSubtype == . smartAlbumUserLibrary }) {
+        if let index = albums.firstIndex(where: { $0.collection.assetCollectionSubtype == . smartAlbumUserLibrary }) {
             albums.moveToFirst(index)
         }
     }

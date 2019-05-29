@@ -259,7 +259,7 @@ extension PSPhotoController: UICollectionViewDataSource, UICollectionViewDelegat
     func configureFrameView(_ cell: PSImageCell, indexPath: IndexPath) {
         let item = items[(indexPath as NSIndexPath).item]
         
-        if let index = cart.images.index(of: item) {
+        if let index = cart.images.firstIndex(of: item) {
             cell.masView?.isHidden = true
             cell.frameView.quickFade()
             cell.frameView.label.text = "\(index + 1)"

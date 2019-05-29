@@ -74,7 +74,7 @@ class PSPageIndicator: UIView {
     }
     
     @objc func buttonTouched(_ button: UIButton) {
-        let index = buttons.index(of: button) ?? 0
+        let index = buttons.firstIndex(of: button) ?? 0
         delegate?.pageIndicator(self, didSelect: index)
         select(index: index)
     }

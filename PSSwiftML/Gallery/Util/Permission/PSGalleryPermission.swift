@@ -37,6 +37,9 @@ struct PSGalleryPermission {
                 
             case .authorized:
                 return .authorized
+                
+            @unknown default:
+                return .notDetermined
             }
         }
         
@@ -52,7 +55,7 @@ struct PSGalleryPermission {
     struct Camera {
         
         static var needsPermission: Bool {
-            return PSGalleryConfig.items.index(of: .camera) != nil
+            return PSGalleryConfig.items.firstIndex(of: .camera) != nil
         }
         
         static var status: Status {
@@ -70,6 +73,9 @@ struct PSGalleryPermission {
                 
             case .authorized:
                 return .authorized
+                
+            @unknown default:
+                return .notDetermined
             }
         }
         
