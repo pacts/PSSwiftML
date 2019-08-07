@@ -25,10 +25,11 @@ extension UIImageView {
         
         let options = PHImageRequestOptions()
         options.isNetworkAccessAllowed = true
-        
+        let scale = UIScreen.main.scale
+        let targetSize = CGSize(width: frame.size.width * scale, height: frame.size.width * scale)
         let id = PHImageManager.default().requestImage(
             for: asset,
-            targetSize: frame.size,
+            targetSize: targetSize,
             contentMode: .aspectFill,
             options: options) { [weak self] (image, _) in
             self?.image = image
